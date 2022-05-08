@@ -1,0 +1,21 @@
+.social-link{
+    font-size: 50px;
+    margin: 10px;
+    list-style-type: none;
+}
+.social-link a{
+    color: var(--text-color);
+}
+.social-link-wrapper{
+    background-color: var(--background-color);
+    border: 1px solid var(--text-color);
+}
+.social-link-wrapper ul{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+

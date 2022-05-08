@@ -1,0 +1,59 @@
+.project-list{
+    background-attachment: fixed;
+}
+
+
+.project-list h1 {
+    margin: 0 auto;
+    text-align: center;
+    color: var(--background-color);
+    padding: 30px;
+}
+.card-wrapper{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;   
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .card-wrapper{
+        width: 80%;
+        
+    }
+}
+
+@media screen and (max-width: 768px){
+    .card-wrapper{
+        width: 80%;
+        
+    }
+}
+
+@media screen and (max-width: 425px){
+    .card-wrapper{
+        width: 230px;
+        
+      }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px){
+    .card-wrapper{
+        width: 240px;
+        
+      }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .project-list h1 {
+      font-size: 30px;
+    } 
+
+}
+
+
